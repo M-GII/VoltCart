@@ -1,8 +1,11 @@
 import React, { useState } from "react";
 import {assets} from "../assets/assests"
 import { Link, NavLink } from "react-router-dom";
+
 const NavBar =() => {
+
     const[visible, setVisible]=useState(false);
+
   return (
     <div className="flex items-center justify-between py-5 font-medium m-1">
         <img src={assets.logo} className="w-56"  alt="" />
