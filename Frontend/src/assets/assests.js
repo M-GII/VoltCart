@@ -9,7 +9,7 @@ import relay_module from './relay_module.png'
 import jumper_wires from './jumper_wires.png'
 import multimeter from './multimeter.png'
 
-import logo from './logo.png'
+import logo from './logo.svg'
 import hero_img from './hero_img.png'
 import cart_icon from './cart_icon.png'
 import bin_icon from './bin_icon.png'
