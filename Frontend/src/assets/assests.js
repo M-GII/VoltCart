@@ -57,8 +57,8 @@ export const products = [
       "A beginner-friendly microcontroller board used for prototyping and learning embedded systems. Great for sensors, motors, and small automation projects.",
     price: 29,
     image: [arduino_uno],
-    category: "Boards",
-    subCategory: "Microcontrollers",
+    category: "Hardware",
+    subCategory: "Boards",
     sizes: ["UNO R3", "UNO R3 + Cable", "UNO R3 Starter"],
     date: 1716621345448,
     bestseller: true
@@ -70,8 +70,8 @@ export const products = [
       "Reusable prototyping breadboard for quick circuit builds without soldering. Ideal for Arduino and general electronics experiments.",
     price: 7,
     image: [breadboard],
-    category: "Prototyping",
-    subCategory: "Breadboards",
+    category: "Accessories",
+    subCategory: "Prototyping",
     sizes: ["400 Tie-Point", "830 Tie-Point", "2-Pack"],
     date: 1716622345448,
     bestseller: true
@@ -109,8 +109,8 @@ export const products = [
       "Dual op-amp based module for signal conditioning, comparators, and simple analog amplification. Great for sensors and audio-band experiments.",
     price: 6,
     image: [op_amp_lm358],
-    category: "Modules",
-    subCategory: "Analog",
+    category: "Components",
+    subCategory: "ICs",
     sizes: ["LM358", "LM358 + Headers", "2-Pack"],
     date: 1716624445448,
     bestseller: false
@@ -122,8 +122,8 @@ export const products = [
       "Distance measurement sensor for robotics and automation. Commonly used with Arduino to detect objects and measure range.",
     price: 5,
     image: [ultrasonic_sensor],
-    category: "Sensors",
-    subCategory: "Distance",
+    category: "Hardware",
+    subCategory: "Sensors",
     sizes: ["HC-SR04", "Waterproof", "2-Pack"],
     date: 1716625545448,
     bestseller: true
@@ -135,8 +135,8 @@ export const products = [
       "Classic character LCD for showing text, values, and menus. Works well for Arduino projects and basic embedded UIs.",
     price: 9,
     image: [lcd_16x2],
-    category: "Displays",
-    subCategory: "LCD",
+    category: "Hardware",
+    subCategory: "Displays",
     sizes: ["16x2", "16x2 + I2C", "20x4"],
     date: 1716626645448,
     bestseller: false
@@ -148,7 +148,7 @@ export const products = [
       "Switch higher-voltage loads using a microcontroller. Common for controlling lamps, fans, and other devices safely with isolation.",
     price: 8,
     image: [relay_module],
-    category: "Modules",
+    category: "Accessories",
     subCategory: "Power",
     sizes: ["1-Channel", "2-Channel", "4-Channel"],
     date: 1716627745448,
@@ -156,13 +156,13 @@ export const products = [
   },
   {
     _id: "elec09",
-    name: "Jumper Wire Set (Male/Female)",
+    name: "Jumper Wire Set",
     description:
       "Essential prototyping wires for breadboards and Arduino headers. Flexible and reusable for quick connections.",
     price: 6,
     image: [jumper_wires],
-    category: "Prototyping",
-    subCategory: "Wires",
+    category: "Accessories",
+    subCategory: "Prototyping",
     sizes: ["M-M", "M-F", "F-F", "Combo Pack"],
     date: 1716628845448,
     bestseller: true
@@ -174,10 +174,10 @@ export const products = [
       "Basic multimeter for measuring voltage, current, resistance, and continuity. A must-have tool for debugging circuits.",
     price: 24,
     image: [multimeter],
-    category: "Tools",
-    subCategory: "Test Equipment",
+    category: "Accessories",
+    subCategory: "Tools",
     sizes: ["Basic", "Auto-Ranging", "With Leads Kit"],
     date: 1716629945448,
     bestseller: false
   }
-]
+];
