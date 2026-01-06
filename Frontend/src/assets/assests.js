@@ -60,6 +60,7 @@ export const products = [
     category: "Hardware",
     subCategory: "Boards",
     sizes: ["UNO R3", "UNO R3 + Cable", "UNO R3 Starter"],
+    sizeLabel: "Configuration",
     date: 1716621345448,
     bestseller: true
   },
@@ -73,6 +74,7 @@ export const products = [
     category: "Accessories",
     subCategory: "Prototyping",
     sizes: ["400 Tie-Point", "830 Tie-Point", "2-Pack"],
+    sizeLabel: "Configuration",
     date: 1716622345448,
     bestseller: true
   },
@@ -86,6 +88,7 @@ export const products = [
     category: "Components",
     subCategory: "Resistors",
     sizes: ["All Values", "1–100Ω", "101–1kΩ", "1.1k–100kΩ", "100kΩ+"],
+    sizeLabel: "Resistance Range",
     date: 1716234545448,
     bestseller: true
   },
@@ -99,6 +102,7 @@ export const products = [
     category: "Components",
     subCategory: "Capacitors",
     sizes: ["All Values", "pF Range", "nF Range", "µF Range", "10µF+"],
+    sizeLabel: "Capacitance Range",
     date: 1716623345448,
     bestseller: false
   },
@@ -112,6 +116,7 @@ export const products = [
     category: "Components",
     subCategory: "ICs",
     sizes: ["LM358", "LM358 + Headers", "2-Pack"],
+    sizeLabel: "Variant",
     date: 1716624445448,
     bestseller: false
   },
@@ -125,6 +130,7 @@ export const products = [
     category: "Hardware",
     subCategory: "Sensors",
     sizes: ["HC-SR04", "Waterproof", "2-Pack"],
+    sizeLabel: "Model",
     date: 1716625545448,
     bestseller: true
   },
@@ -138,6 +144,7 @@ export const products = [
     category: "Hardware",
     subCategory: "Displays",
     sizes: ["16x2", "16x2 + I2C", "20x4"],
+    sizeLabel: "Display Type",
     date: 1716626645448,
     bestseller: false
   },
@@ -151,6 +158,7 @@ export const products = [
     category: "Accessories",
     subCategory: "Power",
     sizes: ["1-Channel", "2-Channel", "4-Channel"],
+    sizeLabel: "Channel Count",
     date: 1716627745448,
     bestseller: false
   },
@@ -164,6 +172,7 @@ export const products = [
     category: "Accessories",
     subCategory: "Prototyping",
     sizes: ["M-M", "M-F", "F-F", "Combo Pack"],
+    sizeLabel: "Connector Type",
     date: 1716628845448,
     bestseller: true
   },
@@ -177,6 +186,7 @@ export const products = [
     category: "Accessories",
     subCategory: "Tools",
     sizes: ["Basic", "Auto-Ranging", "With Leads Kit"],
+    sizeLabel: "Model Type",
     date: 1716629945448,
     bestseller: false
   }
