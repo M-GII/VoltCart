@@ -1,7 +1,7 @@
 # VoltCart ⚡
 **Modern E-Commerce Platform for Electronic Components**
 
-🔗 **Live Demo:** https://YOUR-NETLIFY-LINK.netlify.app  
+🔗 **Live Demo:** https://voltcart-frontend.netlify.app/
 📂 **Frontend Code:** /Frontend
 
 ---
@@ -17,7 +17,7 @@ This project is built as a personal, portfolio-focused application to demonstrat
 - ✅ Frontend: Complete and deployed
 - 🛠️ Backend: Planned (Node.js, Express, database integration)
 
-> **Note:** The current deployment showcases the complete frontend experience. Backend services (authentication, persistent orders, and API-driven product data) are planned and will be integrated in future iterations.
+> **Note:** The current deployment showcases the complete frontend experience. Backend services (authentication, persistent orders, and API-driven product data) are planned and will be integrated in the very near future iterations.
 
 ---
 
@@ -54,3 +54,13 @@ This project is built as a personal, portfolio-focused application to demonstrat
 ---
 
 ## 📂 Project Structure
+VoltCart/
+├─ Frontend/
+│  ├─ src/
+│  │  ├─ components/
+│  │  ├─ pages/
+│  │  ├─ context/
+│  │  └─ assets/
+│  ├─ public/
+│  └─ package.json
+└─ README.md
