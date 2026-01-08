@@ -55,6 +55,7 @@ This project is built as a personal, portfolio-focused application to demonstrat
 ---
 
 ## 📂 Project Structure
+```text
 VoltCart/
 ├─ Frontend/
 │  ├─ src/
@@ -65,3 +66,4 @@ VoltCart/
 │  ├─ public/
 │  └─ package.json
 └─ README.md
+```
