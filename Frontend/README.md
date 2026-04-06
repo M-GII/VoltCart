@@ -1,16 +1,72 @@
-# React + Vite
+# VoltCart Frontend ⚡
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+Frontend client for **VoltCart**, a modern e-commerce platform for electronic components.
 
-Currently, two official plugins are available:
+🔗 Live Demo: https://voltcart-frontend.netlify.app/
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) (or [oxc](https://oxc.rs) when used in [rolldown-vite](https://vite.dev/guide/rolldown)) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+This application focuses on building a production-style shopping experience using scalable React patterns, global state management, and multi-page routing.
 
-## React Compiler
+---
 
-The React Compiler is not enabled on this template because of its impact on dev & build performances. To add it, see [this documentation](https://react.dev/learn/react-compiler/installation).
+## 📌 Overview
 
-## Expanding the ESLint configuration
+The VoltCart frontend simulates a real online electronics store.  
+Users can explore collections, search for items, inspect product details, manage their cart, and walk through a checkout flow.
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+The architecture is intentionally built so the UI can later connect directly to REST APIs and persistent backend services.
+
+---
+
+## ✨ Features Implemented
+
+### Storefront
+- Home landing page with hero & featured sections  
+- Latest collections & best sellers  
+- Category browsing  
+
+### Product Experience
+- Dynamic product detail pages  
+- Image rendering  
+- Related product suggestions  
+
+### Search & Discovery
+- Keyword search  
+- Filtering & sorting within collections  
+
+### Cart System
+- Add / remove items  
+- Quantity updates  
+- Live subtotal & total calculations  
+
+### Checkout Flow
+- Place order interface  
+- Payment provider UI placeholders  
+- Order summary  
+
+### User Pages
+- Login / authentication interface  
+- Orders history page  
+- About & contact pages  
+
+---
+
+## 🧠 Engineering Concepts Demonstrated
+
+- Global state management with **React Context**  
+- Route-based architecture using **React Router**  
+- Reusable UI components  
+- State lifting & shared business logic  
+- Separation of concerns between pages & components  
+- Preparing frontend for API-driven data  
+- Responsive design with utility-first CSS  
+
+---
+
+## 🛠️ Tech Stack
+
+- React  
+- JavaScript (ES6+)  
+- Vite  
+- Tailwind CSS  
+- React Router  
+- Context API  
