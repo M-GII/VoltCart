@@ -76,7 +76,7 @@ const adminLogin = async (req, res) => {
             return res.status(400).json({ message: "All fields are required", success: false })
         }
         if (email === process.env.ADMIN_EMAIL && password === process.env.ADMIN_PASSWORD) {
-            const token = jwt.sign( { role: "admin" }, process.env.JWT_SECRET)
+            const token = jwt.sign( { role: "admin" }, process.env.JWT_SECRET, { expiresIn: "1d" } );   
             return res.status(200).json({ message: "Admin login successful", success: true, token })
         }  else{
             return res.status(401).json({ message: "Invalid admin credentials", success: false })
