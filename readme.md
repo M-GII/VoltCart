@@ -3,6 +3,7 @@
 
 🔗 **Live Application:** https://voltcart-manrojgill.vercel.app/  
 🛠️ **Backend API:** https://voltcart-backend.onrender.com  
+⚠️ **Note:** The backend is deployed on Render’s free tier, which may spin down after inactivity. Initial requests (e.g., loading products) can take up to ~30 seconds.
 
 ---
 
