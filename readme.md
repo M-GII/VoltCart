@@ -1,69 +1,92 @@
-# VoltCart ⚡
-**Modern E-Commerce Platform for Electronic Components**
+# ⚡ VoltCart  
+**Full-Stack E-Commerce Platform for Electronic Components**
 
-🔗 **Live Demo:** https://voltcart-frontend.netlify.app/
-
-📂 **Frontend Code:** /Frontend
-
----
-
-## 📌 Project Overview
-VoltCart is a modern e-commerce web application designed to simulate real-world online purchasing flows for electronic components. The project emphasizes clean UI architecture, scalable state management, and intuitive product discovery, while laying a strong foundation for future backend integration.
-
-This project is built as a personal, portfolio-focused application to demonstrate frontend engineering skills and preparation for full-stack development.
+🔗 **Live Application:** https://voltcart-manrojgill.vercel.app/  
+🛠️ **Backend API:** https://voltcart-backend.onrender.com  
 
 ---
 
-## 🚀 Current Status
-- ✅ Frontend: Complete and deployed
-- 🛠️ Backend: Planned (Node.js, Express, database integration)
+## 📌 Project Overview  
+VoltCart is a full-stack e-commerce web application built to simulate a real-world online shopping experience for electronic components (e.g., Arduino boards, sensors, kits).
 
-> **Note:** The current deployment showcases the complete frontend experience. Backend services (authentication, persistent orders, and API-driven product data) are planned and will be integrated in the very near future iterations.
-
----
-
-## ✨ Features
-- Responsive multi-page storefront with modern UI
-- Dynamic product pages with image galleries and variant selection
-- Global cart management with real-time price calculations
-- Category-based filtering, search, and price sorting
-- Checkout and order flow UI
-- Modular, reusable React component architecture
+The project demonstrates end-to-end development, including frontend UI/UX, backend API design, authentication, and database integration. It was developed as a portfolio project to showcase production-level full-stack engineering using the MERN stack.
 
 ---
 
-## 🛠️ Tech Stack
+## 🚀 Highlights  
+- Full-stack MERN application deployed on Vercel (frontend) and Render (backend)  
+- Real-world e-commerce workflows including cart, checkout, and order management  
+- Secure admin functionality with protected API routes  
+- Integration of third-party services (Cloudinary for image hosting)  
+
+---
+
+## ✨ Key Features  
+
+### 🛍️ User Experience
+- Responsive multi-page storefront  
+- Dynamic product pages with image galleries  
+- Variant selection (e.g., sizes/options)  
+- Global cart with real-time updates  
+- Checkout flow connected to backend APIs  
+
+### 🔐 Authentication
+- JWT-based authentication system  
+- Secure admin login  
+- Protected routes for admin actions  
+
+### 🧑‍💼 Admin Panel
+- Implemented admin dashboard to add products with image uploads (Cloudinary)  
+- Built product management system to view and maintain full inventory  
+- Developed order management interface to track and review customer orders  
+
+### ⚙️ Backend System
+- RESTful API built with Express  
+- MongoDB database with Mongoose schemas  
+- File uploads handled with Multer  
+- Cloudinary integration for image storage  
+- CORS-enabled API for frontend-backend communication  
+
+---
+
+## 🛠️ Tech Stack  
 
 ### Frontend
-- React
-- JavaScript (ES6+)
-- HTML5
-- Tailwind CSS
-- React Router
-- React Context API
+- React  
+- JavaScript (ES6+)  
+- Tailwind CSS  
+- React Router  
+- Context API  
+
+### Backend
+- Node.js  
+- Express.js  
+- MongoDB + Mongoose  
+- JSON Web Tokens (JWT)  
+- Multer  
+- Cloudinary  
 
 ### Deployment
-- Netlify
-
-### Planned Backend
-- Node.js
-- Express.js
-- REST API
-- Authentication & authorization
-- Database persistence (MongoDB or equivalent)
+- Vercel (Frontend)  
+- Render (Backend)  
 
 ---
 
-## 📂 Project Structure
-```text
-VoltCart/
-├─ Frontend/
-│  ├─ src/
-│  │  ├─ components/
-│  │  ├─ pages/
-│  │  ├─ context/
-│  │  └─ assets/
-│  ├─ public/
-│  └─ package.json
-└─ README.md
-```
+## 📈 What This Project Demonstrates  
+- Full-stack architecture (client + server + database)  
+- REST API design and integration  
+- Authentication and access control  
+- File uploads and third-party service integration  
+- Scalable React state management  
+- Real-world application structure and deployment  
+
+---
+
+## 👨‍💻 Author  
+**M-GII**  
+Computer Engineering @ University of Alberta  
+
+---
+
+## ⭐ Final Note  
+VoltCart reflects hands-on experience building and deploying a production-style full-stack application. It highlights practical problem-solving, debugging, and the ability to integrate multiple technologies into a cohesive system.
